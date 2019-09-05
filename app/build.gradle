@@ -30,6 +30,12 @@ dependencies {
     implementation deps.koin.android
     implementation deps.squareup.leakCanary
 
+    api deps.google.dagger.dagger
+    api deps.google.dagger.daggerAndroid
+//    api deps.google.dagger.support
+    kapt deps.google.dagger.compiler
+    kapt deps.google.dagger.annotationAndroid
+
     implementation deps.google.android.x.ui.material
     implementation deps.google.android.x.ui.constraintLayout
     implementation deps.google.android.x.foundation.appCompat
